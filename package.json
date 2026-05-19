@@ -1,0 +1,39 @@
+{
+  "name": "@adamzafir/termite",
+  "version": "0.1.0",
+  "description": "WhatsApp your terminal with a small wacli companion.",
+  "license": "MIT",
+  "homepage": "https://github.com/adamzafir/termite#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamzafir/termite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamzafir/termite/issues"
+  },
+  "bin": {
+    "termite": "./termite"
+  },
+  "files": [
+    "termite",
+    "termite.sh",
+    "README.md",
+    "LICENSE"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "bash -n termite termite.sh && ./termite --help >/dev/null"
+  },
+  "keywords": [
+    "whatsapp",
+    "terminal",
+    "shell",
+    "wacli",
+    "cli"
+  ]
+}
